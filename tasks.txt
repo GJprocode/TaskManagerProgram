@@ -1,0 +1,8 @@
+admin, Register Users with taskManager.py, Use taskManager.py to add the usernames and passwords for all team members that will be using this program., 10 Oct 2019, 28 Mar 2023, Yes, 1
+admin, Assign initial tasks, Use taskManager.py to assign each team member with appropriate tasks, 10 Oct 2019, 25 Oct 2019, No, 2
+Gert, Capstone 19, Write a program for a small company to manage their users logins and tasks gannt charts., 23 Feb 2023, 5 Apr 2023, Yes, 3
+Eric, Debudg file "task_manager.py" daily, Use SQL and Python to query issues., 28 Mar 2023, 15 Oct 2023, Yes, 4
+George, Cap 24, Write Pseudocode for the Capstoen project and test adding a task using functions., 14 Mar 2023, 22 Mar 2023, No, 5
+George, Add a task number, Add task number and correct print layout with this added information., 22 Mar 2023, 28 Mar 2023, No, 6
+George, Cap24 vm stage 3, Final stage define function and fix -1 to menu and if task completed cannot edit, 28 Mar 2023, 26 Mar 2023, No, 7
+George, Cap24vm l3, fix -1 to menu and cannot edit if task is completed, 29 Mar 2023, 26 Mar 2023,Yes, 8
