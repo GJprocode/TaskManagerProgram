@@ -1,6 +1,9 @@
-#L1T24 CT1&2 Capstone porject 3
+#######################--------------------#######################
+# Program description:
+# Task manager program - Allows you to Login as Admin or user, if registered
+# Choose from variety of option of menu to edit and show stats of Tasks.
+#######################--------------------#######################
 
-# Import modules always on top, followed by defined functions
 from datetime import datetime as dt
 import datetime
 
@@ -38,7 +41,7 @@ def add_task():
             task_title = input("Please enter your task title:\n")
             task_description = input("Please enter your task description:\n")
             task_due_date = input("Please enter the due date of task, format exact ie 23 Mar 2023:\n") 
-            current_date = dt.today().strftime("%d %b %Y") # string current date
+            current_date = dt.today().strftime("%d %b %Y")
             task_complete = "No"
             task_number = int(input("Please input a number for your task\n"))
             with open("tasks.txt","a+") as filename:
@@ -67,7 +70,7 @@ def view_all():
 def view_mine():
 
     vm_lists = []
-    has_tasks = False # boolean
+    has_tasks = False 
     with open("tasks.txt","r+") as file: 
         for lines in file : 
             temp = lines.strip()
@@ -305,7 +308,7 @@ vm - View my task.
 gr - Generate reports.
 ds - Display Statistics. 
 e - Exit.
- ''').lower() #ds must not break if gr not generated, create
+ ''').lower() 
 
 #######################--------------------#######################
 # User Menu
@@ -362,4 +365,5 @@ ex - Exit.
         exit()
 
     else:
-        print("You have made a wrong choice, Please Try again")
+        print("You have made a wrong choice, Please Try again")   
+        
