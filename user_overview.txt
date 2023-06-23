@@ -1,4 +1,12 @@
-Total users:		8
-Total tasks:		27
-Total tasks per user:		Marvin 0
-
+Total users:		5
+Total tasks:		11
+Total tasks for admin:	2
+% of total tasks for admin:	18.18%
+Total tasks for Gert:	4
+% of total tasks for Gert:	36.36%
+Total tasks for George:	3
+% of total tasks for George:	27.27%
+Total tasks for Eric:	2
+% of total tasks for Eric:	18.18%
+Total tasks for Mike:	0
+% of total tasks for Mike:	0.0%
